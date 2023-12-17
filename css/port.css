@@ -1,0 +1,61 @@
+/*font-family:'VT323', monospace; */
+/*  Reset CSS*/
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.header-links {
+
+    display: flex;
+    justify-content: flex-end;
+    gap: 24px;
+    padding: 32px;
+}
+
+.header-links a {
+    font-size: 24px;
+    font-family: 'VT323', monospace;
+    text-decoration: none;
+    color: #13731d
+}
+
+.main-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding:  90px 0;
+}
+
+.avatar {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+   
+}
+.main-title {
+font-size: 44px;
+line-height: 44px;
+color: #020202;
+margin-top: 40px;
+}
+.main-description {
+    font-size: 18px;
+    line-height: 27px;
+    margin-top: 30px;
+}
+.main-button {
+    background-color:#198524 ;
+    text-decoration: none;
+    color: #fff;
+    padding: 13px 32px;
+    border-radius: 13px;
+    margin-top: 30px;
+}
